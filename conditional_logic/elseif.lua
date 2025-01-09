@@ -12,3 +12,7 @@ elseif menu_option == 4 then
 end
 
 print(menu_text)
+
+if menu_option ~= 1 then
+	menu_text = "test"
+end
