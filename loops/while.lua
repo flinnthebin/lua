@@ -11,8 +11,8 @@ while c <= 500 do
 		print("Enemy position collides with player position.")
 	else
 		print("Enemy " .. c .. ":(" .. x_pos .. ", " .. y_pos .. ")")
+		c = c + 1
 	end
-	c = c + 1
 end
 
 print("Exit success")
